@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Work Sans;
+}
+.nav-container{
+    
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding: 0 240px; */
+}
+.logo-container{
+
+    display: flex;
+    
+    width: 50%;
+}
+.logo-container img{
+    width: width: 86.041px;;
+    object-fit: scale-down;
+    margin-right: 20px;
+}
+.logo-container h1{
+    font-size: 45px
+}
+.G-section{
+    color: #FF42A5;
+    font-family: ;
+}
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+}
+.media{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    text-align: center;
+    font-weight: 500;
+    padding: 1px 20px;
+    height: 40px;
+    
+}
+.youtube{
+    color: #F61C0D;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.tiktok{
+ 
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+
+/* banner section starts here */
+
+.section-1{
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    width: 100%;
+}
+.banner-1{
+    max-width: 1400px;
+    margin: 0 auto;  
+    display: flex;
+}
+.banner-description{
+    margin-top: 140px;
+    display: block;
+    width: 50%;
+}
+.banner-img{
+    width: 50%;
+    background: white;
+    border-radius: 50px;
+}
+.banner-img img{
+    width: 100%;
+}
+.play{
+ 
+    font-size: 48px;
+    font-weight: 600;
+}
+.goat{
+font-size: 95px;
+font-weight: 800;
+
+}
+
+.common{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn-primary{
+    background-color: #FF42A5 ;
+    border: none;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 600;
+    padding: 15px 40px;
+}
+.btn-secondary{
+    background-color: #4EC5F7; ;
+    border: none;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 600;
+    padding: 15px 40px;
+}
+
+/* banner section 2 */
+.section-2{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100%;
+}
+.banner-2{
+    max-width: 1400px;
+    margin: 0 auto;  
+    display: flex;
+    gap: 120px;
+    padding: 60px 0;
+
+}
+.banner-img-2{
+    width: 55%;
+    border-radius: 50px;
+}
+.banner-description-2{
+    text-align: right;
+    margin-top: 20px;
+    display: block;
+    width: 40%%;
+}
+.gamer{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.common-2{
+    margin: 40px auto;
+    color: #534C64;
+text-align: end;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.end{
+    margin: 40px 0;
+    display: block;
+    gap: 40px;
+}
+.purpose{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.unleash{
+color: #534C64;
+font-size: 28px;
+font-weight: 700;
+}
+
+
+
+/* video section css starts here */

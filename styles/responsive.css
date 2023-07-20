@@ -1,0 +1,107 @@
+@media screen and (max-width: 476px) {
+    .nav-container{
+    flex-direction: column;
+    padding: 0 100px;
+    }
+    .logo-container{
+        width: auto;
+    }
+    .logo-container img{
+       margin: 0 auto;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        
+    }
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+    .media{
+        display: flex;
+        width: 240px;
+        align-items: center;
+        margin-top: 20px;
+        justify-items: auto;
+        margin-left: 10px;
+    }
+    .media-btn{
+        margin-bottom: 17px;
+    }
+
+
+    /* banner container 1*/
+
+    .section-1{
+        flex-direction: column-reverse;
+    }
+    .banner-1{
+        max-width: 476px;
+        /* margin: 0 auto;   */
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: fit-content;
+        padding: 30px;
+    }
+    .banner-description{
+       width: 80%;
+       margin: 0 100px;
+       justify-content: center;
+      
+    }
+    .play{
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .goat{
+        background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        color: transparent;
+        -webkit-background-clip: text;
+        font-size: 65px;
+        font-weight: 800;
+    }
+        .common{
+            color: #534C64;
+            font-size: 15px;
+            font-weight: 500;
+        }   
+    .btn{
+        display: flex;
+    } 
+    .btn-primary{
+        font-size: 18px;
+            padding: 8px 25px;
+        }   
+        .btn-secondary{
+            font-size: 18px;
+                padding: 8px 25px;
+            } 
+    /* banner 2 starts here */
+    .section-2{
+        flex-direction: column;
+    }
+    .banner-2{
+        max-width: 476px;
+        /* margin: 0 auto;   */
+        flex-direction: column;
+    }  
+    .banner-description-2{
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+     }
+     .common-2{
+        font-size: 15px;
+        text-align: center;
+     }
+     .banner-img-2{
+        width: 100%;
+        height: fit-content;
+     }
+     .banner-img-2 img{
+        width: 100%;
+     }
+
+}
