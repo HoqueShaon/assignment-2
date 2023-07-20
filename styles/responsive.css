@@ -110,4 +110,34 @@
         grid-template-columns: 1fr;
         padding: 10px;
     }
+
+
+    /* last banner */
+    .banner-3{
+        max-width: 476px;
+        /* margin: 0 auto;   */
+        flex-direction: column;
+    } 
+    .banner-description-3{
+        width: 100%;
+       margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+     }
+     .banner-img-3{
+        width: 21vh;
+        margin-left: 60px;
+     }
+     .banner-img-3 img{
+        width: 21vh;
+        
+     }
+     .last{
+        color: #F948B2;
+        text-align: center;
+        align-items: center;
+
+    }
+    
 }
