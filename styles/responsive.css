@@ -104,4 +104,10 @@
         width: 100%;
      }
 
+     /* grid laypout videos  */
+     .grid-container{
+       
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
 }
